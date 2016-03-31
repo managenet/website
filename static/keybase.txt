@@ -1,0 +1,65 @@
+==================================================================
+https://keybase.io/jacobmarshall
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://manage.net.nz
+  * I am jacobmarshall (https://keybase.io/jacobmarshall) on keybase.
+  * I have a public key with fingerprint 4543 0CA7 26CF 0989 29F7  1D0A C25C E133 0AFC 3EB0
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "45430ca726cf098929f71d0ac25ce1330afc3eb0",
+            "host": "keybase.io",
+            "key_id": "c25ce1330afc3eb0",
+            "uid": "a1ba4c2f2207eda71129793d38b87900",
+            "username": "jacobmarshall"
+        },
+        "service": {
+            "hostname": "manage.net.nz",
+            "protocol": "https:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1418885201,
+    "expire_in": 157680000,
+    "prev": "1515b1c8b188bab9dd9310fc0e2f82ab159d324a0aa8bb56ea4b22ae9237e3e2",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: Keybase OpenPGP v1.1.6
+Comment: https://keybase.io/crypto
+
+yMHsAnicbZFrSBRRFIB3feKWlqFEGYFjspDLNnNnx5nRDP1hD7IfhliItN47c2cd
+HzPbzKy5ij8kgqCsDJGM3liCSlBaRBGY+KCiUCgQNBTRlFIsRUiQ6o7Yv+6fyz3n
+O985hzsQH+lwObdNXOjMr11bdr7vWws5iq7XFtZTSJfDVFY9VYk3LkXVAtgIGqpm
+UVmUj/OxtAR5kCkptCiIQFR4RqahBDgJMyxLQ0ViMaIpD1Wum3YF0SBoYq+qkxh5
++FWZRP/DhzYSkEHQJwEFAJrHMuQZBoi8yMqsgARepDdAExsarMaEroCSjqqhYZbD
+qiqqwUORVI0qYXtwu/8mVg01GMBeDVterY4YgoZu6ZJeRVLllhU0s+xSKxy02XMY
++TctfqRqMlmfVNRgw1R1jcpiCClZqq1lfIwgCBygGQ+Fa4Oqgf2qTXB8pkCTY/fB
+NUTJcAyHGElAhEcQibIssgytSDQGigAgYjhRZoEP0hAKCHGZGPoQABCLgOUxiwFl
+73VW04kbkDlhgDhNNaBBK2RgqqG/rzTK4XQ5YqIj7B90uOK2//vXxBuxv1MX/S/n
+124nPnF4/eNjBUxednjwTe6dlm515PKB5kDkVAPa5+xNa6s6mQ6AWVr0fajN7Xkq
+11F0e0HKVVfiifSOqL3u4ozQj2WlvjkcmzGUkOOa+Rz5p2l96eCnnpy6HZeS+e4j
+CZN7vuR8jUM7+1euXMtfPPoib6wxOU4fpaS6XatTocdnUqy5kcY55lvldDjplvNV
+8aPC+MmWipUtbT8XjnUecp9f5obb0iJS83pW+8H0bqqlqVdJGBzYP751YNqIb787
+c+re8P3Rmx25zx8+i84vKjl8ccbtDnV9fJfUHlPyK/t14/G3vWxr6/rsg4VZOmZ+
+4XTXRP+S8qGs7C9QWxYq
+=lmUb
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/jacobmarshall
+
+==================================================================
