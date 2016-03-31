@@ -3,8 +3,6 @@ package main
 import (
 	"net/http"
 	"os"
-
-	"github.com/gorilla/mux"
 )
 
 var (
@@ -35,9 +33,7 @@ func middlewareHandler(middleware func (http.ResponseWriter, *http.Request), han
 }
 
 func main() {
-	router := mux.NewRouter()
-	router.PathPrefix("/").HandlerFunc(
-		middlewareHandler(stampHeaders,
-			http.FileServer(http.Dir("./static/"))))
-	http.ListenAndServe(":" + port, router)
+	http.HandleFunc("/", middlewareHandler(stampHeaders,
+		http.FileServer(http.Dir("./static/"))))
+	http.ListenAndServe(":" + port, nil)
 }
