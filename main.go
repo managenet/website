@@ -3,6 +3,7 @@ package main
 import (
 	"net/http"
 	"os"
+	"log"
 )
 
 var (
@@ -35,5 +36,7 @@ func middlewareHandler(middleware func (http.ResponseWriter, *http.Request), han
 func main() {
 	http.HandleFunc("/", middlewareHandler(stampHeaders,
 		http.FileServer(http.Dir("./static/"))))
-	http.ListenAndServe(":" + port, nil)
+	if err := http.ListenAndServe(":" + port, nil); err != nil {
+		log.Fatal(err)
+	}
 }
