@@ -7,7 +7,7 @@ import (
 
 var (
 	port string = os.Getenv("PORT")
-	csp string = "onnect-src 'self', script-src 'self', font-src https://fonts.gstatic.com"
+	csp string = "connect-src 'self'; script-src 'self'; font-src https://fonts.gstatic.com"
 	headers map[string]string = map[string]string{
 		"Content-Security-Policy": csp,
 		"X-Content-Security-Policy": csp,
