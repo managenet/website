@@ -1,4 +1,4 @@
 FROM scratch
-ADD ./bin/website /
-ADD ./static /static
-CMD /website
+ADD bin/website /
+ADD static /static
+CMD ["/website"]
